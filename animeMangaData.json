@@ -1,0 +1,13 @@
+{
+  "items": [
+    {
+      "Id": 1,
+      "Title": "Log Horizon",
+      "Type": "Anime",
+      "Description": "A fantasy anime where thousands of players are trapped in the MMORPG Elder Tale after a mysterious event. ",
+      "Rating": 6,
+      "Notes": "Fadi's favoritt "
+    }
+  ],
+  "idCounter": 2
+}

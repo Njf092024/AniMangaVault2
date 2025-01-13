@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AniMangaVault2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f4dfd7bfe875abea981dbfff398269ba8bd88fc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71c29b438ac70fa77e8117a7feba835600d658d9")]
 [assembly: System.Reflection.AssemblyProductAttribute("AniMangaVault2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AniMangaVault2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
