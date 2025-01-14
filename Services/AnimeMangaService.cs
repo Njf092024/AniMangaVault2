@@ -4,6 +4,7 @@ using Newtonsoft.Json;
 using System.IO;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 
 namespace AniMangaVault2.Services
 {
@@ -91,7 +92,12 @@ namespace AniMangaVault2.Services
                     items = data.items.ToObject<List<AnimeMangaItem>>() ?? new List<AnimeMangaItem>();
                     idCounter = data.idCounter ?? 1;
                 }
+
             }
+        }
+         public List<AnimeMangaItem> GetAllItems()
+        {
+                    return items;
         }
     }
 }
