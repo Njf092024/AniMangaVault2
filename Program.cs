@@ -88,10 +88,24 @@ namespace AniMangaVault2
             Console.Clear();
             AnsiConsole.MarkupLine("[bold yellow]Update Rating[/]");
 
-            int id = AnsiConsole.Ask<int>("Enter the ID of the item to update: ");
-            int newRating = AnsiConsole.Ask<int>("Enter the new rating (1-6): ");
+            var items = service.GetAllItems();
+            if (!items.Any())
+            {
+                AnsiConsole.MarkupLine("[red]No items available to update![/]");
+                Console.ReadKey();
+                return;
+            }
 
-            service.UpdateRating(id, newRating);
+            var selectedItem = AnsiConsole.Prompt(
+                new SelectionPrompt<AnimeMangaItem>()
+                .Title("Select an item to update:")
+                .PageSize(10)
+                .AddChoices(items));
+
+                int newRating = AnsiConsole.Ask<int>("Enter the new rating (1-6): ");
+
+
+            service.UpdateRating(selectedItem.Id, newRating);
             AnsiConsole.MarkupLine("[green]Rating updated successfully![/]");
             AnsiConsole.MarkupLine("Press any key to return to the main menu...");
             Console.ReadKey();
