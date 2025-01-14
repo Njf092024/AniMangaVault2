@@ -104,7 +104,6 @@ namespace AniMangaVault2
 
                 int newRating = AnsiConsole.Ask<int>("Enter the new rating (1-6): ");
 
-
             service.UpdateRating(selectedItem.Id, newRating);
             AnsiConsole.MarkupLine("[green]Rating updated successfully![/]");
             AnsiConsole.MarkupLine("Press any key to return to the main menu...");
