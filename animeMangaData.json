@@ -7,7 +7,47 @@
       "Description": "A fantasy anime where thousands of players are trapped in the MMORPG Elder Tale after a mysterious event. ",
       "Rating": 6,
       "Notes": "Fadi's favoritt "
+    },
+    {
+      "Id": 2,
+      "Title": "esex uwu yay",
+      "Type": "anime",
+      "Description": "uwu yay XXX",
+      "Rating": 6,
+      "Notes": "mmmmmmmmmmm"
+    },
+    {
+      "Id": 3,
+      "Title": "Berserk",
+      "Type": "Manga",
+      "Description": "BIG ASS SWORD DUDE SWIGN WOOP WOOP",
+      "Rating": 6,
+      "Notes": "BERSERKKKKKKKK"
+    },
+    {
+      "Id": 4,
+      "Title": "Boku no pico",
+      "Type": "Anime",
+      "Description": "BIG D energy",
+      "Rating": 1,
+      "Notes": "DO NOT WATCH"
+    },
+    {
+      "Id": 5,
+      "Title": "code geass",
+      "Type": "anime",
+      "Description": "fantasy strategy political warfare ",
+      "Rating": 5,
+      "Notes": "good fookin shizz"
+    },
+    {
+      "Id": 6,
+      "Title": "hunter hunter",
+      "Type": "manga",
+      "Description": "boy on an adventure to find deadbeat dad, discovers amazing world",
+      "Rating": 6,
+      "Notes": "fuuuuucking BANGER"
     }
   ],
-  "idCounter": 2
+  "idCounter": 8
 }

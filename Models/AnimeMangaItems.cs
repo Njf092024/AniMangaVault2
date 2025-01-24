@@ -8,5 +8,10 @@ namespace AniMangaVault2.Models
         public string Description { get; set; } = string.Empty;
         public int Rating { get; set; }
         public string Notes { get; set; } = string.Empty;
+
+        public override string ToString()
+        {
+            return $"{Title} (ID: {Id})";
+        }
     }
 }
