@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "Id": 1,
+      "Id": 0,
       "Title": "Log Horizon",
       "Type": "Anime",
       "Description": "A fantasy anime where thousands of players are trapped in the MMORPG Elder Tale after a mysterious event. ",
@@ -9,23 +9,7 @@
       "Notes": "Fadi's favoritt "
     },
     {
-      "Id": 2,
-      "Title": "esex uwu yay",
-      "Type": "anime",
-      "Description": "uwu yay XXX",
-      "Rating": 1,
-      "Notes": "mmmmmmmmmmm"
-    },
-    {
       "Id": 3,
-      "Title": "Berserk",
-      "Type": "Manga",
-      "Description": "BIG ASS SWORD DUDE SWIGN WOOP WOOP",
-      "Rating": 6,
-      "Notes": "BERSERKKKKKKKK"
-    },
-    {
-      "Id": 4,
       "Title": "Boku no pico",
       "Type": "Anime",
       "Description": "BIG D energy",
@@ -34,20 +18,20 @@
     },
     {
       "Id": 5,
-      "Title": "code geass",
-      "Type": "anime",
-      "Description": "fantasy strategy political warfare ",
-      "Rating": 5,
-      "Notes": "good fookin shizz"
+      "Title": "Berserker",
+      "Type": "Anime",
+      "Description": "BIGBOY WITH BIGSWORD",
+      "Rating": 6,
+      "Notes": "hm"
     },
     {
       "Id": 6,
-      "Title": "hunter hunter",
-      "Type": "manga",
-      "Description": "boy on an adventure to find deadbeat dad, discovers amazing world",
+      "Title": "Berserker",
+      "Type": "Anime",
+      "Description": "BIGBOY SWINGING BIG SWORD",
       "Rating": 6,
-      "Notes": "fuuuuucking BANGER"
+      "Notes": "HM"
     }
   ],
-  "idCounter": 14
+  "idCounter": 7
 }

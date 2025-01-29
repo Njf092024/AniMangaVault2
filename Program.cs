@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Spectre.Console;
 using AniMangaVault2.Services;
 using AniMangaVault2.Models;
+using System.Data.Common;
 
 namespace AniMangaVault2
 {
