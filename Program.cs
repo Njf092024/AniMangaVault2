@@ -114,8 +114,22 @@ namespace AniMangaVault2
         {
             Console.Clear();
             AnsiConsole.MarkupLine("[bold red]Delete Anime/Manga[/]");
-            int id = AnsiConsole.Ask<int>("Enter the ID of the item to delete: ");
-            service.DeleteAnimeMangaItem(id);
+            var items = service.GetAllItems();
+            if (!items.Any())
+            {
+                AnsiConsole.MarkupLine("[red]No items available to delete![/]");
+                Console.ReadKey();
+                return;
+            }
+
+            var selectedItem = AnsiConsole.Prompt(
+                new SelectionPrompt<AnimeMangaItem>()
+                .Title("Select an item to Delete:")
+                .PageSize(10)
+                .AddChoices(items));
+                
+                service.DeleteAnimeMangaItem(selectedItem.Id);
+            
 
             AnsiConsole.MarkupLine("[green]Item deleted successfully![/]");
             AnsiConsole.MarkupLine("Press any key to return to the main menu...");
