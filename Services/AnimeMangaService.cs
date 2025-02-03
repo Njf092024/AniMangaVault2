@@ -33,11 +33,27 @@ namespace AniMangaVault2.Services
                 AnsiConsole.MarkupLine("[yellow]No items available.[/]");
                 return;
             }
+            
+            var table = new Table();
+
+            table.AddColumn(new TableColumn("ID").Centered());
+            table.AddColumn(new TableColumn("Title").Centered());
+            table.AddColumn(new TableColumn("Rating").Centered());
+            table.AddColumn(new TableColumn("Type").Centered());
+            table.AddColumn(new TableColumn("Description").Centered());
 
             foreach (var item in items)
             {
-                AnsiConsole.MarkupLine($"[cyan]ID:[/] {item.Id}, [bold]{item.Title}[/], [green]Rating:[/] {item.Rating}, [blue]Type:[/] {item.Type}, [purple]Description:[/] {item.Description}");
+                table.AddRow(
+                item.Id.ToString(),
+                item.Title,
+                item.Rating.ToString(),
+                item.Type,
+                item.Description
+                );
             }
+
+            AnsiConsole.Write(table);
         }
 
         public void UpdateRating(int id, int newRating)
