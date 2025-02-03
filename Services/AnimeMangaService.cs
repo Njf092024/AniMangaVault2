@@ -36,7 +36,7 @@ namespace AniMangaVault2.Services
 
             foreach (var item in items)
             {
-                AnsiConsole.MarkupLine($"[cyan]ID:[/] {item.Id}, [bold]{item.Title}[/], [green]Rating:[/] {item.Rating}, [blue]Type:[/] {item.Type}");
+                AnsiConsole.MarkupLine($"[cyan]ID:[/] {item.Id}, [bold]{item.Title}[/], [green]Rating:[/] {item.Rating}, [blue]Type:[/] {item.Type}, [purple]Description:[/] {item.Description}");
             }
         }
 
@@ -98,6 +98,7 @@ namespace AniMangaVault2.Services
          public List<AnimeMangaItem> GetAllItems()
         {
                     return items;
+                    
         }
     }
 }

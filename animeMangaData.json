@@ -31,7 +31,15 @@
       "Description": "BIGBOY SWINGING BIG SWORD",
       "Rating": 6,
       "Notes": "HM"
+    },
+    {
+      "Id": 7,
+      "Title": "attack on titans",
+      "Type": "manga",
+      "Description": "evil bastards",
+      "Rating": 5,
+      "Notes": "heccy"
     }
   ],
-  "idCounter": 7
+  "idCounter": 8
 }
