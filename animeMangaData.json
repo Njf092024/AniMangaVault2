@@ -1,45 +1,45 @@
 {
   "items": [
     {
-      "Id": 0,
-      "Title": "Log Horizon",
+      "Id": 8,
+      "Title": "food wars",
       "Type": "Anime",
-      "Description": "A fantasy anime where thousands of players are trapped in the MMORPG Elder Tale after a mysterious event. ",
-      "Rating": 6,
-      "Notes": "Fadi's favoritt "
+      "Description": "ja",
+      "Rating": 22222,
+      "Name": ""
     },
     {
-      "Id": 3,
-      "Title": "Boku no pico",
+      "Id": 9,
+      "Title": "Sleepy princess in the demon castle",
       "Type": "Anime",
-      "Description": "BIG D energy",
+      "Description": "The human princess is kidnapped by the demon king, but that won't stop her from getting a good night's sleep! The demons got much more than they bargained for with this princess",
+      "Rating": 6,
+      "Name": ""
+    },
+    {
+      "Id": 10,
+      "Title": "Anime",
+      "Type": "Anime",
+      "Description": "Manga",
+      "Rating": 0,
+      "Name": ""
+    },
+    {
+      "Id": 11,
+      "Title": "11111111111111111111111111111111111111111111111111111111111111111111",
+      "Type": "11111111111111111111111111111111111111111111e",
+      "Description": "11111111111111111111111111111111111111111111111111111111111111111",
+      "Rating": 11111111,
+      "Name": ""
+    },
+    {
+      "Id": 12,
+      "Title": "test",
+      "Type": "anime",
+      "Description": "test",
       "Rating": 1,
-      "Notes": "DO NOT WATCH"
-    },
-    {
-      "Id": 5,
-      "Title": "Berserker",
-      "Type": "Anime",
-      "Description": "BIGBOY WITH BIGSWORD",
-      "Rating": 6,
-      "Notes": "hm"
-    },
-    {
-      "Id": 6,
-      "Title": "Berserker",
-      "Type": "Anime",
-      "Description": "BIGBOY SWINGING BIG SWORD",
-      "Rating": 6,
-      "Notes": "HM"
-    },
-    {
-      "Id": 7,
-      "Title": "attack on titans",
-      "Type": "manga",
-      "Description": "evil bastards",
-      "Rating": 5,
-      "Notes": "heccy"
+      "Name": "Fadi"
     }
   ],
-  "idCounter": 8
+  "idCounter": 13
 }

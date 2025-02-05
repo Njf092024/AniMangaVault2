@@ -55,7 +55,7 @@ namespace AniMangaVault2
             string type = AnsiConsole.Ask<string>("Enter type (Anime/Manga): ");
             string description = AnsiConsole.Ask<string>("Enter description: ");
             int rating = AnsiConsole.Ask<int>("Enter rating (1-6): ");
-            string notes = AnsiConsole.Ask<string>("Enter notes: ");
+            string name = AnsiConsole.Ask<string>("Enter your name: ");
 
             var newItem = new AnimeMangaItem
             {
@@ -64,7 +64,7 @@ namespace AniMangaVault2
                 Type = type,
                 Description = description,
                 Rating = rating,
-                Notes = notes
+                Name = name
             };
 
             service.AddNewAnimeMangaItem(newItem);
