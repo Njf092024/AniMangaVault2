@@ -40,6 +40,7 @@ namespace AniMangaVault2.Services
             table.AddColumn(new TableColumn("Title").Centered());
             table.AddColumn(new TableColumn("Rating").Centered());
             table.AddColumn(new TableColumn("Type").Centered());
+            table.AddColumn(new TableColumn("Genre").Centered());
             table.AddColumn(new TableColumn("Description").Centered());
 
             foreach (var item in items)
@@ -49,6 +50,7 @@ namespace AniMangaVault2.Services
                 item.Title,
                 item.Rating.ToString(),
                 item.Type,
+                item.Genre,
                 item.Description
                 );
             }

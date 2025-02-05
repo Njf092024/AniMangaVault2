@@ -4,42 +4,38 @@
       "Id": 8,
       "Title": "food wars",
       "Type": "Anime",
+      "Genre": "",
       "Description": "ja",
-      "Rating": 22222,
+      "Rating": 4,
       "Name": ""
     },
     {
       "Id": 9,
       "Title": "Sleepy princess in the demon castle",
       "Type": "Anime",
+      "Genre": "",
       "Description": "The human princess is kidnapped by the demon king, but that won't stop her from getting a good night's sleep! The demons got much more than they bargained for with this princess",
       "Rating": 6,
       "Name": ""
     },
     {
-      "Id": 10,
-      "Title": "Anime",
+      "Id": 13,
+      "Title": "Log Horizon",
       "Type": "Anime",
-      "Description": "Manga",
-      "Rating": 0,
-      "Name": ""
+      "Genre": "",
+      "Description": "support main gets stuck in an mmo but unlike sword art online it actually focuses on politics",
+      "Rating": 6,
+      "Name": "Fadi"
     },
     {
-      "Id": 11,
-      "Title": "11111111111111111111111111111111111111111111111111111111111111111111",
-      "Type": "11111111111111111111111111111111111111111111e",
-      "Description": "11111111111111111111111111111111111111111111111111111111111111111",
-      "Rating": 11111111,
-      "Name": ""
-    },
-    {
-      "Id": 12,
-      "Title": "test",
-      "Type": "anime",
-      "Description": "test",
-      "Rating": 1,
+      "Id": 14,
+      "Title": "Steins Gate",
+      "Type": "Anime",
+      "Genre": "Psychological",
+      "Description": "Leroy Jenkins, but as a crazy scientist",
+      "Rating": 6,
       "Name": "Fadi"
     }
   ],
-  "idCounter": 13
+  "idCounter": 15
 }
