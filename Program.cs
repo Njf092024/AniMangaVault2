@@ -53,7 +53,7 @@ namespace AniMangaVault2
             AnsiConsole.MarkupLine("[bold yellow]Add a new Anime/Manga[/]");
             string title = AnsiConsole.Ask<string>("Enter the title: ");
             string type = AnsiConsole.Ask<string>("Enter type (Anime/Manga): ");
-            string genre = AnsiConsole.Ask <string>("enter genre (Ex. Action, Fantasy... : ");
+            string genre = AnsiConsole.Ask <string>("Enter genre (Ex. Action, Fantasy...) : ");
             string description = AnsiConsole.Ask<string>("Enter description: ");
             int rating = AnsiConsole.Ask<int>("Enter rating (1-6): ");
             string name = AnsiConsole.Ask<string>("Enter your name: ");
